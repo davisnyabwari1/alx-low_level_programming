@@ -7,5 +7,6 @@
 */
 int main(void)
 {
+	printf("So nice to be an ALX student");
 	return (0);
 }
