@@ -27,6 +27,7 @@ int main(void)
 
 			if (digit == 98 && second == 99)
 				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
