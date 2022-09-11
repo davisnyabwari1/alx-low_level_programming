@@ -24,7 +24,6 @@ int main(void)
 
 			if (digit == 8 && second == 9)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
