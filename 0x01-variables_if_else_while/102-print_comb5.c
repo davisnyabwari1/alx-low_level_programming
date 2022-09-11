@@ -17,7 +17,7 @@ int main(void)
 
 	for (digit = 0; digit <= 98; digit++)
 	{
-		for (second = digit + 1; second < 99; second++)
+		for (second = digit + 1; second <= 99; second++)
 		{
 			putchar((digit % 10) + '0');
 			putchar((digit % 10) + '0');
@@ -25,7 +25,7 @@ int main(void)
 			putchar((second % 10) + '0');
 			putchar((second % 10) + '0');
 
-			if (digit ==98 && second == 99)
+			if (digit == 98 && second == 99)
 				continue;
 			putchar(',');
 			putchar(' ');
