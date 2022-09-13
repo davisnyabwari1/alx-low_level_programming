@@ -5,8 +5,7 @@
 
 
 /**
-* prints alphabets from a-z
-*
+*print_alphabet- prints alphabets from a-z
 */
 void print_alphabet(void)
 {
