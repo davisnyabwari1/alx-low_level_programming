@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
-*main - Entry point
+*prints alphabets from a-z
 *
-*Return:Always 0(success)
 */
 void print_alphabet(void)
 {
@@ -15,5 +14,4 @@ void print_alphabet(void)
 		_putchar(alphabet);
 	}
 	_putchar('\n');
-	return;
 }
