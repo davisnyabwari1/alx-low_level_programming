@@ -4,7 +4,8 @@
 
 
 /**
-*Description: _islower - determines whether the letter is in lower case
+*_islower - determines whether the letter is in lower case
+*@c - character checked 
 *
 *Return:Always 0(success)
 */
