@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-	if (_islower(c) > 0)
+	if (_islower('c') > 0)
 		return (1);
 	return (0);
 }
