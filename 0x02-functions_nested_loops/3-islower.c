@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-*_islower - determines whether the letter is in lower case
+*_islower(int c) - determines whether the letter is in lower case
 *
 *Return:Always 0(success)
 */
