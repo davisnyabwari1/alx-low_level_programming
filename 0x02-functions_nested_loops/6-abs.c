@@ -14,5 +14,5 @@ int _abs(int number)
 	int absnum;
 
 	absnum = abs(number);
-	return absnum;
+	return (absnum);
 }
