@@ -12,6 +12,9 @@ int print_last_digit(int number)
 {
 	int lastdigit;
 
-	lastdigit = number % 10;
-	return (lastdigit);
+	if (lastdigit < 0)
+		return (abs(number) %  10);
+	else
+		lastdigit = number % 10;
+		return (lastdigit);
 }
