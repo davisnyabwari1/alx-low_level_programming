@@ -4,7 +4,7 @@
 
 
 /**
-*_islower(c) - determines whether the letter is in lower case
+*_islower - determines whether the letter is in lower case
 *
 *Return:Always 0(success)
 */
