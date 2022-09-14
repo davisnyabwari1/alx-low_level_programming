@@ -21,12 +21,12 @@ void print_times_table(int n)
 			for (j = 1; j <= n; j++)
 			{
 				_putchar(',');
-				printf("  ");
+				printf(" ");
 
 				prdct = i * j;
 
-				if (prdct <= 9)
-					printf("  ");
+				if (prdct <= n)
+					printf(" ");
 				else
 					_putchar((prdct / 10) + '0');
 				_putchar((prdct % 10) + '0');
