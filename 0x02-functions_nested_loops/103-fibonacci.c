@@ -13,10 +13,10 @@ int main(void)
 	float tot_sum;
 	while (1)
 	{
-		fibsum = fib1 + fib2;
-		if (fibsum > 4000000)
+		sum = t1 + t2;
+		if (sum > 4000000)
 			break;
-		if ((fibsum % 2) == 0)
+		if ((sum % 2) == 0)
 			tot_sum += sum;
 		t1 = t2;
 		t2 = sum;
