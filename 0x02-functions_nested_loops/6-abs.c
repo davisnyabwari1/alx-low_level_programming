@@ -14,6 +14,5 @@ int _abs(int number)
 	int absnum;
 
 	absnum = abs(number);
-	printf("%d\n", absnum);
-	return (0);
+	return absnum;
 }
