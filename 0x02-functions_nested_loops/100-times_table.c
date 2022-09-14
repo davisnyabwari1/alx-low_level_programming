@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include "main.h"
+
+
+
+
+/**
+*print_times_table- prints time from 0 to 23
+*@n: number to be input
+*/
+void print_times_table(int n)
+{
+	int i, j, prdct;
+
+	for (i = 0; i <= n; i++)
+	{
+		_putchar('0');
+
+		for (j = 1; j <= n; j++)
+		{
+			_putchar(',');
+			_putchar(' ');
+
+			prdct = i * j;
+
+			if (prdct <= 9)
+				_putchar(' ');
+			else
+				_putchar((prdct / 10) + '0');
+			_putchar((prdct % 10) + '0');
+		}
+		_putchar('\n');
+	}
+}
