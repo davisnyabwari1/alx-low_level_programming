@@ -12,13 +12,12 @@ int main(void)
 	nextTerm = t1 + t2;
 	printf("%d,%d", t1, t2);
 	
-	while (nextTerm <= 50)
-	{
-		printf("%d", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
-	}
+		while (nextTerm <= 50)
+		{
+			printf("%d", nextTerm);
+			t1 = t2;
+			t2 = nextTerm;
+			nextTerm = t1 + t2;
+		}
 	
-
 }
