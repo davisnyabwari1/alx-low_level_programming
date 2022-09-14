@@ -11,7 +11,7 @@ int main(void)
 	int count;
 	unsigned long t1 = 0, t2 = 1, sum;
 
-	for (count = 0; count < 50; count ++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = t1 + t2;
 		printf("%lu", sum);
@@ -21,7 +21,7 @@ int main(void)
 		if (count == 49)
 			printf("\n");
 		else
-			printf(",");
+			printf(", ");
 	}
 	return (0);
 }
