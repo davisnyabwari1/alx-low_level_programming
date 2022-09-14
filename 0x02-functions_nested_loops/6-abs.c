@@ -5,14 +5,15 @@
 
 /**
 *_abs - determines the abs value of a number
-*
+*@number: value to be checked
 *
 *Return:Always 0(success)
 */
 int _abs(int number)
 {
 	int absnum;
+
 	absnum = abs(number);
-	printf("%d", absnum);
+	printf("%d\n", absnum);
 	return (0);
 }
