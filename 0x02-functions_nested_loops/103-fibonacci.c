@@ -8,7 +8,6 @@
 */
 int main(void)
 {
-	int count;
 	unsigned long t1 = 0, t2 = 1, sum;
 	float tot_sum;
 	while (1)
