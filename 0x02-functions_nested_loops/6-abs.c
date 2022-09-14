@@ -12,7 +12,7 @@
 int _abs(int number)
 {
 	int absnum;
-	absnum = abs (number);
-	_putchar(absnum);
+	absnum = abs(number);
+	printf("%d", absnum);
 	return (0);
 }
