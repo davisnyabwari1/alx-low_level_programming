@@ -9,9 +9,10 @@
 *
 *Return:Always 0(success)
 */
-int _abs(int)
+int _abs(int number)
 {
-	int number,absnum;
+	int absnum;
 	absnum = abs (number);
+	_putchar(absnum);
 	return (0);
 }
