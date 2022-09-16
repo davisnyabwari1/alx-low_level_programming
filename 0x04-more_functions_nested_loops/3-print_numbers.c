@@ -1,9 +1,6 @@
 #include<stdio.h>
 #include "main.h"
 
-
-
-
 /**
 *print_numbers- prints alphabets from a-z ten times
 */
