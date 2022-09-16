@@ -1,22 +1,20 @@
-#include "main.h"
+#include"main.h"
 
 /**
-* print_line - function that draws a line on the terminal
-* @n: number of times an undescore is printed
-*/
-
+ * print_line - draw a straight line
+ * @n: number of times underscore is printed
+ * Description: Can only use _putchar to print
+ */
 void print_line(int n)
 {
-	int counter;
-	
-	if (n > 0)
+	int c;
+
+	c = 0;
+	while (c < n)
 	{
-		counter  = 0;
-		while (counter < n)
-		{
-			_putchar('_');
-		       counter++;
-		}
+		_putchar('_');
+
+		c++;
 	}
 	_putchar('\n');
 }
