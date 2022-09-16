@@ -4,7 +4,7 @@
 * print_most_numbers- prints numbers from 0-9 except 2 & 4
 * 
 */
-void print_most_umbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
