@@ -11,5 +11,6 @@ int _atoi(char *s)
 {
  int val;
  val = atoi(s);
+ printf("%d", val);
 return (0);
 }
