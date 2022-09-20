@@ -15,10 +15,10 @@ length = strlen(s);
 for (i = 0; i < length/2; i++)
 {
 ch = s[i];
-s[i] = s[l-1-1];
-s[l-1-1] = ch;
+s[i] = s[length-1-i];
+s[length-1-i] = ch;
 
-_putchar(s);
+printf("%s",s);
 }
 _putchar('\n');
 }
