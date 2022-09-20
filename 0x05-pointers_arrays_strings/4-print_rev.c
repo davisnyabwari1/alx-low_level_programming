@@ -6,16 +6,16 @@
 *@s:string passed
 *Return: success
 */
-void print_rev(char *s
+void print_rev(char *s)
 {
 int length,i;
 char ch;
 length = strlen(s);
 
 for (i = length; i > 0; i--)
-}
+{
 ch = s[i];
 
 }
-puts(ch);
+_putchar(ch);
 }
