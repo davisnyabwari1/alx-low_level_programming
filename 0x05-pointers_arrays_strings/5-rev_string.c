@@ -6,7 +6,7 @@
 *@s:string passed
 *Return: success
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int length, i;
 char ch;
