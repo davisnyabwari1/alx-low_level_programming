@@ -12,7 +12,7 @@ int length, i;
 char ch;
 length = strlen(s);
 
-for (i = length; i >= 0; i--)
+for (i = length-1; i >= 0; i--)
 {
 ch = s[i];
 _putchar(ch);
