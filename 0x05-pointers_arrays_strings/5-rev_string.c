@@ -12,13 +12,13 @@ int length, i;
 char ch;
 length = strlen(s);
 
-for (i = 0; i < length/2; i++)
+for (i = 0; i < length / 2; i++)
 {
 ch = s[i];
-s[i] = s[length-1-i];
-s[length-1-i] = ch;
+s[i] = s[length - 1 - i];
+s[length - 1 - i] = ch;
 
-printf("%s",s);
+printf("%s", s);
 }
 _putchar('\n');
 }
