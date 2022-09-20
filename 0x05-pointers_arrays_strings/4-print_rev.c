@@ -16,5 +16,6 @@ for (i = length; i >= 0; i--)
 {
 ch = s[i];
 _putchar(ch);
+_putchar('\n');
 }
 }
