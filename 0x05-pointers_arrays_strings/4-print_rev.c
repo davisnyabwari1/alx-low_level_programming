@@ -13,7 +13,7 @@ length = strlen(s);
 
 for (i = length; i >= 0; i--)
 {
-_putchar(s[i]);
+puts(s[i]);
 }
 _putchar('\n');
 }
