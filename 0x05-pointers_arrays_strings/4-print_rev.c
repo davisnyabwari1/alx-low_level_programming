@@ -7,9 +7,9 @@
 *Return: success
 */
 void print_rev(char *s)
-char ch;
 {
 int length, i;
+char ch;
 length = strlen(s);
 
 for (i = length; i >= 0; i--)
