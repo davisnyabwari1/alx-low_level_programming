@@ -2,12 +2,23 @@
 #include <string.h>
 
 /**
-*rev_string - reverses a string
+*rev_string - finds reverse of a string
 *@s:string passed
 *Return: success
 */
-void rev_string(char *)
+void print_rev(char *s)
 {
-strrev(s);
-puts(s);
+int length, i;
+char ch;
+length = strlen(s);
+
+for (i = 0; i < length/2; i++)
+{
+ch = s[i];
+s[i] = s[l-1-1];
+s[l-1-1] = ch;
+
+_putchar(s);
+}
+_putchar('\n');
 }
