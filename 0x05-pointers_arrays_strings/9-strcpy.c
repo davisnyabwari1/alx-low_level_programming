@@ -2,13 +2,13 @@
 #include <string.h>
 
 /**
-**_strcpy - copies a string
+*_strcpy - copies a string
 *@dest:string passed
-*@str: src string
+*@src: src string
 *Return: success
 */
 char *_strcpy(char *dest, char *src)
 {
 strcpy(dest, src);
-return(dest);
+return (dest);
 }
