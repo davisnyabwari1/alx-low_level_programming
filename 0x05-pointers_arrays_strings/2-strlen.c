@@ -4,6 +4,7 @@
 /**
 *_strlen - finds length of a string
 *@s:string passed
+*Return: success
 */
 int _strlen(char *s)
 {
