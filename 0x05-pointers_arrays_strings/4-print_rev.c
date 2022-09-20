@@ -17,5 +17,4 @@ for (i = length; i > 0; i--)
 ch = s[i];
 
 }
-puts(ch);
 }
