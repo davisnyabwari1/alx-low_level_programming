@@ -18,7 +18,6 @@ ch = s[i];
 s[i] = s[length - 1 - i];
 s[length - 1 - i] = ch;
 
-printf("%s", s);
 }
 _putchar('\n');
 }
