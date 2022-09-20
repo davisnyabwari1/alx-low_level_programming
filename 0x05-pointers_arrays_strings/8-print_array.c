@@ -3,7 +3,7 @@
 
 /**
 *print_array - prints an arraay
-*@a -array 
+*@a: array 
 *n: number of elements
 *Return: success
 */
@@ -14,14 +14,14 @@ int i;
 for (i = 0; i < n; i++)
 {
 printf("%d", a[i]);
-if (i == n -1)
+if (i == n - 1)
 {
 continue;
 }
-else 
+else
 {
 printf(", ");
 }
 }
-_putchar('\n');
+printf("\n");
 }
