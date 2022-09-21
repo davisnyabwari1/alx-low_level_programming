@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
-*rev_array - finds reverse of a string
-*@s:array
+*reverse_array - finds reverse of a string
+*@a:array
 *@n: number of elements
 *Return: success
 */
