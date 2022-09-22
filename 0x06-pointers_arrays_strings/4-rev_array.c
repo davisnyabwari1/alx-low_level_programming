@@ -2,21 +2,39 @@
 #include <string.h>
 
 /**
-*reverse_array - finds reverse of a string
-*@a:array
+*rev_array - reverses an array
+*@a: array
 *@n: number of elements
 *Return: success
 */
-void reverse_array(int *a, int n)
+void print_array(int *a, int n)
 {
 int i;
-char ch;
 
-for (i = 0; i < n / 2; i++)
+for (i = 0; i < n; i++)
 {
-ch = a[i];
-a[i] = a[n - 1 - i];
-a[n - 1 - i] = ch;
-
+printf("%d", a[i]);
+if (i == n - 1)
+{
+continue;
 }
+else
+{
+printf(", ");
+}
+}
+printf("\n");
+for (i = n; i > 0; i--)
+{
+printf("%d", a[i]);
+if (i == 0)
+{
+continue
+}
+else
+{
+printf(", ")
+}
+}
+printf("\n");
 }
