@@ -2,12 +2,12 @@
 #include <string.h>
 
 /**
-*rev_array - reverses an array
+*reverse_array - reverses an array
 *@a: array
 *@n: number of elements
 *Return: success
 */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 int i;
 
