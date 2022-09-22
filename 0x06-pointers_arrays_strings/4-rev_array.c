@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
-*reverse_string - finds reverse of a string
-*@a:array passed
-*@n:number
-*/
-void reverse_array(int *a, int n);
-{
-int i, ch;
+ * reverse_array - reverse the contents of an array of integers
+ * @a: array of integers
+ * @n: number of elements in array
+ */
 
-for (i = n - 1; i >= n / 2; i--)
+void reverse_array(int *a, int n)
 {
-ch = a[n - 1 - i];
-a[n - 1 - i] = a[i];
-a[i] = ch;
-}
+	int i;
+	int h;
 
+	for (i = 0; i < (n / 2); i++)
+	{
+		h = a[i];
+		a[i] = a[n - i - 1];
+		a[n - i - 1] = h;
+	}
 }
