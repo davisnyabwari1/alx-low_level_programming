@@ -7,7 +7,7 @@
 void set_string(char **s, char *to)
 {
 	char name = 'D';
-	to = &name;
-	**s = &to;
-}
 
+	to = &name;
+	s = &to;
+}
