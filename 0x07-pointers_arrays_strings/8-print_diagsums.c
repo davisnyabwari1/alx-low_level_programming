@@ -17,11 +17,11 @@ void print_diagsums(int *a, int size)
 		}
 	}
 
-	for (int m = size; m >= 0; m--)
+	for (i = size; i >= 0; i--)
 	{
-		for (int n = size; n >= 0; n--)
+		for (j = size; j >= 0; j--)
 		{
-			if (m == n)
+			if (i == j)
 				sum2 += a[m][n];
 		}
 	}
