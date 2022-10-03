@@ -6,17 +6,17 @@
 */
 int _putchar(char c)
 {
-	return (0);
+
 }
 
 /**
 *_islower
-*@c: character to be checked
-*Return : success
+*@c: 
+*Return:success
 */
 int _islower(int c)
 {
-	return (0);
+
 }
 
 /**
@@ -26,7 +26,7 @@ int _islower(int c)
 */
 int _isalpha(int c)
 {
-	return (0);
+
 }
 
 /**
@@ -36,7 +36,7 @@ int _isalpha(int c)
 */
 int _abs(int n)
 {
-	return (0);
+
 }
 
 /**
@@ -46,7 +46,7 @@ int _abs(int n)
 */
 int _isupper(int c)
 {
-	return (0);
+
 }
 
 /**
@@ -56,7 +56,7 @@ int _isupper(int c)
 */
 int _isdigit(int c)
 {
-	return (0);
+
 }
 
 /**
@@ -66,7 +66,7 @@ int _isdigit(int c)
 */
 int _strlen(char *)
 {
-	return (0);
+	
 }
 
 /**
@@ -94,14 +94,14 @@ char *_strcpy(char *dest, char *src)
 */
 int _atoi(char *s)
 {
-	return (0);
+
 }
 
 /**
 *_strcat
 *@dest:
 *@src:
-*Return: success
+*Return: something
 */
 char *_strcat(char *dest, char *src)
 {
@@ -130,10 +130,10 @@ char *_strncpy(char *dest, char *src, int n)
 
 }
 /**
-*_strcmp -
-*@s1:
-*@s2:
-*Return:
+*_strcmp - function to be used
+*s1: value1 to be used
+*s2: value2 to be used
+*Return: success
 */
 int _strcmp(char *s1, char *s2)
 {
