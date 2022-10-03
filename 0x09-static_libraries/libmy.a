@@ -1,0 +1,205 @@
+#include "main.h"
+/**
+*_putchar - function that takes in one character
+*@c: character to be passed
+*Return: success
+*/
+int _putchar(char c)
+{
+	return (0);
+}
+
+/**
+*_islower
+*@c: character to be checked
+*Return : success
+*/
+int _islower(int c)
+{
+	return (0);
+}
+
+/**
+*_isalpha -
+*@c: value to be checked
+*Return: success
+*/
+int _isalpha(int c)
+{
+	return (0);
+}
+
+/**
+*_abs -
+*@n: value to be used
+*Return: success
+*/
+int _abs(int n)
+{
+	return (0);
+}
+
+/**
+*_isupper -
+*@c: character to be converted
+*Return: success
+*/
+int _isupper(int c)
+{
+	return (0);
+}
+
+/**
+*_isdigit -
+*@c:
+*Return: success
+*/
+int _isdigit(int c)
+{
+	return (0);
+}
+
+/**
+*_strlen -
+*@s: 
+*Return: success
+*/
+int _strlen(char *)
+{
+	return (0);
+}
+
+/**
+*_puts -
+*@s:
+*/
+void _puts(char *s)
+{
+}
+
+/**
+*_strcpy - 
+*@dest:
+*@src:
+*Return : somthng
+*/
+char *_strcpy(char *dest, char *src)
+{
+
+}
+/**
+*_atoi -
+*@s:
+*Return - somthng
+*/
+int _atoi(char *s)
+{
+	return (0);
+}
+
+/**
+*_strcat
+*@dest:
+*@src:
+*Return: success
+*/
+char *_strcat(char *dest, char *src)
+{
+
+}
+/**
+*strncat 
+*@dest:
+*@src:
+*@n:
+*Return:
+*/
+char *_strncat(char *dest, char *src, int n)
+{
+
+}
+/**
+*_strncpy -
+*@src:
+*@dest:
+*@n:
+*Return: success
+*/
+char *_strncpy(char *dest, char *src, int n)
+{
+
+}
+/**
+*_strcmp -
+*@s1:
+*@s2:
+*Return:
+*/
+int _strcmp(char *s1, char *s2)
+{
+
+}
+/**
+*_memset -
+*@s:
+*@b:
+*@n:
+*Return: success
+*/
+char *_memset(char *s, char b, unsigned int n)
+{
+
+}
+/**
+*_memcpy -
+*@dest:
+*@src:
+*Return: success
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+
+}
+/**
+*strchr - 
+*@s:
+*@c:
+*Return: success
+*/
+char *_strchr(char *s, char c)
+{
+
+}
+
+/**
+*_strspn:
+*@s:
+*@accept:
+*Return:
+*/
+unsigned int _strspn(char *s, char *accept)
+{
+
+}
+
+/**
+*_strpbrk -
+*@s:
+*@char:
+*@accept:
+*Return: success
+*/
+char *_strpbrk(char *s, char *accept)
+{
+
+}
+/**
+*strstr -
+*@haystack:
+*@needle:
+*Return: something
+*/
+char *_strstr(char *haystack, char *needle)
+{
+
+}
