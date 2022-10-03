@@ -1,17 +1,14 @@
-#include<stdio.h>
-#include <ctype.h>
 #include "main.h"
-
-
 /**
-*_isdigit - determines whether the letter is in lower case
-*@c: character checked
-*
-*Return:Always 0(success)
+*_isdigit - function that verifies if a  character is a digit or not
+*@c: tested character
+*Return: returns 1 if it is uppercase , 0 if not
 */
+
 int _isdigit(int c)
 {
-	if (isdigit(c) > 0)
-		return (1);
-	return (0);
+if ((c >= 48) && (c <= 57))
+return (1);
+
+return (0);
 }

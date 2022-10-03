@@ -1,18 +1,15 @@
-#include<stdio.h>
-#include <stdlib.h>
 #include "main.h"
-
-
 /**
-*_abs - determines the abs value of a number
-*@number: value to be checked
-*
-*Return:Always 0(success)
+* _abs - prints the absolute value of a number
+*@i: number targeted
+*Return: returns 0
 */
-int _abs(int number)
+int _abs(int i)
 {
-	int absnum;
-
-	absnum = abs(number);
-	return (absnum);
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
+else
+return (0);
 }
