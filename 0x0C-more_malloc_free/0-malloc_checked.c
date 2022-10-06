@@ -14,9 +14,13 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 	{
-		_putchar(9 + '0');
-		_putchar(8 + '0');
+		putchar(9 + '0');
+		putchar(8 + '0');
 	}
-	else 
+	else
+	{
 		return (ptr);
+	}
+
+	free(ptr);
 }
