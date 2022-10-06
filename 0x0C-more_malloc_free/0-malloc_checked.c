@@ -4,6 +4,7 @@
 /**
 *malloc_checked -function that allocates memory
 *@b: value to be stored
+*Return: success
 */
 
 void *malloc_checked(unsigned int b)
