@@ -8,19 +8,10 @@
 
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *ptr;
+	void *mem = malloc(b);
 
-	ptr = (unsigned int *) malloc(b * sizeof(unsigned int));
+	if (mem == NULL)
+		exit(98);
 
-	if (ptr == NULL)
-	{
-		putchar(9 + '0');
-		putchar(8 + '0');
-	}
-	else
-	{
-		return (ptr);
-	}
-
-	free(ptr);
+	return (mem);
 }
