@@ -7,10 +7,12 @@
 
 int main()
 {
-	struct dog myDog;
+	struct dog my_dog;
 
-	init_dog(&myDog, "Poppy", 3.5, "Bob");
+	my_dog.name = "Poppy";
+   	my_dog.age = 3.5;
+    	my_dog.owner = "Bob";
+    	print_dog(&my_dog);
 
-	printf("name is %s, am %.1f\n", myDog.name, myDog.age);
 	return (0);
 }
