@@ -9,16 +9,13 @@
 */
 size_t print_list(const list_t *h)
 {
-	struct list_t *ptr = NULL;
 	int count_node = 0;
 
-	ptr = h;
-
-	while (ptr != NULL)
+	while (h)
 	{
 		count_node++;
-		printf("%s", ptr->str);
-		ptr = ptr->next;
+		printf("%s\n", h->str);
+		h = h->next;
 	}
 	return (count_node);
 }
