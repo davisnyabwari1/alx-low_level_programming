@@ -9,19 +9,16 @@
 */
 size_t print_list(const list_t *h)
 {
-	if (h == NULL)
-		printf("linked list is empty");
 	struct list_t *ptr = NULL;
+	int count_node = 0;
 
 	ptr = h;
 
 	while (ptr != NULL)
 	{
-		if (h->str == NULL)
-			printf("[0] (nil)");
-		else
-			printf("%lu", ptr->str);
-			ptr = ptr->next;
+		count_node++;
+		printf("%s", ptr->str);
+		ptr = ptr->next;
 	}
-
+	return (count_node);
 }
