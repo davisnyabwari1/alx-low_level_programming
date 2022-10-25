@@ -5,20 +5,22 @@
 /**
 *print_list - function that prints elements in a list
 *@h: head pointer of the list
+*Return: success
 */
-
 size_t print_list(const list_t *h)
 {
 	if (h == NULL)
 		printf("linked list is empty");
 	struct list_t *ptr = NULL;
+
 	ptr = h;
+
 	while (ptr != NULL)
 	{
 		if (h->str == NULL)
 			printf("[0] (nil)");
 		else
-			printf("[%lu] %s", ptr->len, ptr->str );
+			printf("%lu", ptr->str);
 			ptr = ptr->next;
 	}
 
