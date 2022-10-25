@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
-*print_list - function that prints elements in a list
+*list_len - function that prints elements in a list
 *@h: head pointer of the list
 *Return: success
 */
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	size_t count_node = 0;
 
